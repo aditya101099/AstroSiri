@@ -2,7 +2,7 @@
 
 A Siri Shortcut powered by a collection of Python scripts to help you plan astronomical observation sessions.
 
-Check out how it works [here](www.youtube.com)!
+Check out how it works [here](https://youtu.be/4us8ehGUh9w)!
 
 # Table of Contents
 * [Introduction](https://github.com/aditya101099/AstroSiri#introduction)
@@ -54,7 +54,7 @@ You can either use this shortcut by asking Siri "Let's talk about astronomy", or
 
 The results of your query are also automatically copied to the clipboard, so you can paste them wherever you like. 
 
-You can check out a video of it [here](www.youtube.com)
+You can check out a video of it [here](https://youtu.be/4us8ehGUh9w)
 
 ## Technologies 
 
