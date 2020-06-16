@@ -7,6 +7,7 @@ import time
 import location 
 import webbrowser
 
+loc = location.get_location()
 GPS_COORDS = f"{loc['latitude']}, {loc['longitude']}"
 DARKSKY_API_KEY = "9b88e268bff31516691599141aefa11c"
 

@@ -40,9 +40,13 @@ You must also be running iOS 13 or later.
 
 1. Get the [Siri Shortcut](https://www.icloud.com/shortcuts/e533e392192a4843a2345d65b697a890) that corresponds to this project and add it to your Shortcuts library. If you get an error saying the Shortcut cannot be imported, read through [this](https://9to5mac.com/2019/08/14/allow-untrusted-shortcuts-ios-13/).
 2. On your iPad or iPhone, navigate to this GitHub page and download the folder as a zip file. 
+![](installation/install1.jpg)
 3. Navigate to Files > Downloads and tap on the zip file to unzip it.
+![](installation/install2.jpg)
 4. Long-press on the item to bring up the options menu and tap on the Share button. Select "Run Pythonista script" and Select "Import".
+![](installation/install3.jpg)
 5. You're done! You are now ready to use AstroSiri!
+![](installation/install4.jpg)
 
 ## Usage
 
