@@ -4,6 +4,9 @@ A Siri Shortcut powered by a collection of Python scripts to help you plan astro
 
 Check out how it works [here](https://youtu.be/4us8ehGUh9w)!
 
+![](demo.PNG)
+
+
 # Table of Contents
 * [Introduction](https://github.com/aditya101099/AstroSiri#introduction)
 * [Installation](https://github.com/aditya101099/AstroSiri#installation)
