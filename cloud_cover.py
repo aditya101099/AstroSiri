@@ -4,11 +4,11 @@ import os
 from datetime import datetime
 import clipboard
 import time
-import config
 import location 
+import webbrowser
 
 GPS_COORDS = f"{loc['latitude']}, {loc['longitude']}"
-DARKSKY_API_KEY = config.DARKSKY_API_KEY
+DARKSKY_API_KEY = "9b88e268bff31516691599141aefa11c"
 
 
 
@@ -72,5 +72,5 @@ for tupl in cloud_list:
 
 
 clipboard.set('{}'.format(output))
-
-
+url = "shortcuts://"
+webbrowser.open(url)
