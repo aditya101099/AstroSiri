@@ -19,8 +19,15 @@ day = str(time.day+1).zfill(2) if len(str(time.day+1)) == 1 else str(time.day+1)
 day_after = str(time.day+2).zfill(2) if len(str(time.day+2)) == 1 else str(time.day+2)
 tomorrow_str = f"{time.year}-{month}-{day} 12:00:00"
 day_after_str = f"{time.year}-{month}-{day_after} 12:00:00"
-tomorrow_dt = round(datetime.timestamp(datetime.strptime(tomorrow_str, '%Y-%m-%d %H:%M:%S')))
-day_after_dt = round(datetime.timestamp(datetime.strptime(day_after_str, '%Y-%m-%d %H:%M:%S')))
+try:
+	tomorrow_dt = round(datetime.timestamp(datetime.strptime(tomorrow_str, '%Y-%m-%d %H:%M:%S')))
+	day_after_dt = round(datetime.timestamp(datetime.strptime(day_after_str, '%Y-%m-%d %H:%M:%S')))
+except:
+	month = str(time.month+1).zfill(2) if len(str(time.month+1)) == 1 else str(time.month+1)
+	tomorrow_str = f"{time.year}-{month}-01 12:00:00"
+	day_after_str = f"{time.year}-{month}-02 12:00:00"
+	tomorrow_dt = round(datetime.timestamp(datetime.strptime(tomorrow_str, '%Y-%m-%d %H:%M:%S')))
+	day_after_dt = round(datetime.timestamp(datetime.strptime(day_after_str, '%Y-%m-%d %H:%M:%S')))
 tomorrow = f",{tomorrow_dt}"
 day_after_full = f",{day_after_dt}"
 

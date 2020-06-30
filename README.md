@@ -53,19 +53,26 @@ You must also be running iOS 13 or later.
 
 4. Long-press on the item to bring up the options menu and tap on the Share button. Select "Run Pythonista script" and Select "Import".
 
-![](installation/install3.jpg)
-
-5. You're done! You are now ready to use AstroSiri!
+![](installation/install3.jpg) 
 
 ![](installation/install4.jpg)
 
+5. You're done! You are now ready to use AstroSiri!
+
 ## Usage
 
-You can either use this shortcut by asking Siri "Let's talk about astronomy", or by going into the Shortcuts app and manually tapping on the Shortcut. Then, select the prompt that you're interested in (except the last one: "What are the observation results?"). Pythonista will automatically open and run the Python scripts and then open up Shortcuts again. To find out the answer to your question, you have to run the Shortcut again (either via Siri or by manually tapping on the Shortcut) and select the final option - "What are the observation results?". This double-invocation is due to limitations with Shortcuts in iOS and iPadOS.
+You can use this shortcut in two ways:
+
+1. Invoke Siri and say "Let's talk about astronomy"
+2. Go into the Shortcuts app and manually tapping on the Shortcut
+
+Then, select the prompt that you're interested in (except the last one: "What are the observation results?"). Pythonista will automatically open, run the relevant Python script, and then open up Shortcuts again. 
+
+To find out the answer to your question, you have to run the Shortcut again (either via Siri or by manually tapping on the Shortcut) and select the final option - "What are the observation results?". This double-invocation is due to limitations with Shortcuts in iOS and iPadOS.
 
 The results of your query are also automatically copied to the clipboard, so you can paste them wherever you like. 
 
-You can check out a video of it [here](https://youtu.be/4us8ehGUh9w)
+You can check out a video of it [here](https://youtu.be/4us8ehGUh9w).
 
 ## Technologies 
 
@@ -77,7 +84,7 @@ Location fetching and clipboard access is possible due to Pythonista, which has 
 * iOS 13/iPadOS 13 or later
 * [Siri Shortcuts app](https://apps.apple.com/gb/app/shortcuts/id1462947752)
 * [Pythonista for iOS](https://apps.apple.com/gb/app/pythonista-3/id1085978097)
-* ["Let's Talk About Astronomy Siri Shorcut"](https://www.icloud.com/shortcuts/e533e392192a4843a2345d65b697a890)
+* ["Let's Talk About Astronomy" Siri Shorcut](https://www.icloud.com/shortcuts/e533e392192a4843a2345d65b697a890)
 
 ## Status
 
@@ -85,4 +92,4 @@ As of June 16, 2020, AstroSiri is completely functional. However, since it relie
 
 ## Acknowledgements
 
-AstroSiri cannot be possible without the [Dark Sky API](https://darksky.net/dev), as well as [Siri Shortcuts](https://support.apple.com/en-gb/HT209055) and [Pythonista](http://omz-software.com/pythonista/).
+AstroSiri could not have been made without the [Dark Sky API](https://darksky.net/dev), as well as [Siri Shortcuts](https://support.apple.com/en-gb/HT209055) and [Pythonista](http://omz-software.com/pythonista/).
